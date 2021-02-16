@@ -1,0 +1,68 @@
+
+
+.header {
+    background-color: maroon;
+}
+
+#image {
+    height: 100px;
+    margin-left:50px;
+
+}
+#name {
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-size: large;
+}
+#logo-caption {
+    color: white;
+    font-style: italic;
+    position: relative;
+    bottom: 20px;
+    margin-left: 50px;
+}
+.nav-bar{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+
+}
+.list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.bar {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    position: absolute;
+    top:10px;
+    left:1000px;
+}
+
+.font {
+    font-size: large;  
+}
+
+.search-button {
+    font-size: large;
+}
+.font a {
+    text-decoration: none;
+    color: white;
+}
+
+.font a:hover{
+    text-decoration: underline;
+}
+
+.search-button a { 
+    text-decoration: none;
+    color: white;
+}
+.search-button a:hover{
+    background-color: white;
+    color: black;
+}
